@@ -1,0 +1,59 @@
+body {
+    background-color: #d1a86d;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+  }
+  .product-images {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+  }
+  .product-images img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .product-images p {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+  }
+  .title {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    .container {
+      padding: 10px;
+    }
+  }
